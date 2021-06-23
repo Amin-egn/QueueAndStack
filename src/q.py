@@ -20,5 +20,7 @@ if __name__ == '__main__':
     a = Queue(4)
     a.push(1)
     a.push(4)
+    a.push(2)
+    a.push(3)
     print(a.pop())
 
